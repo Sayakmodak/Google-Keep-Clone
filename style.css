@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.fa-note-sticky{
+    font-size: 45px;
+}
+.fa-pen-to-square{
+    font-size: 30px;
+}
+.fa-trash{
+    font-size: 30px;
+}
+header{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #53daa4;
+}
+header h2{
+    margin-left: 15px;
+}
+header .head{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header #addButton{
+    padding: 7px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.container{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+.notes{
+    border: 1px solid black;
+    margin: 30px 20px;
+    height: 200px;
+    width: 400px;
+    overflow-y: scroll;
+    display: inline-block;
+}
+.notes textarea{
+    height: 155px;
+    width: 372px;
+    padding: 10px;
+    
+}
+.button-section{
+    border: 1px solid black;
+    text-align: end;
+    padding-right: 3px;
+}
+.main{
+    padding: 10px;
+    /* background-color: red; */
+}
+.hidden{
+    display: none;
+}
